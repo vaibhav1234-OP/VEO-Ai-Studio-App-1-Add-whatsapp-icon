@@ -20,6 +20,9 @@ export default function App() {
           <NavMenu>
             <a href="/" rel="home" />
             <a href="/pagename">{t("NavigationMenu.pageName")}</a>
+            <a href="/whatsappconfig">{t("NavigationMenu.whatsappconfig","WhatsApp Config")}</a>
+            <a href="/settings">{t("NavigationMenu.settings", "Settings")}</a>
+            <a href="/support">{t("NavigationMenu.support", "Support")}</a>
           </NavMenu>
           <Routes pages={pages} />
         </QueryProvider>

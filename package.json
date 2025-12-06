@@ -12,7 +12,7 @@
     "deploy": "shopify app deploy"
   },
   "dependencies": {},
-  "author": "Ashish vats",
+  "author": "Vaibhav vats",
   "private": true,
   "workspaces": [
     "extensions/*",
