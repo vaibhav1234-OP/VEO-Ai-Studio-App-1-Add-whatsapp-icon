@@ -19,7 +19,7 @@ export default function App() {
         <QueryProvider>
           <NavMenu>
             <a href="/" rel="home" />
-            <a href="/pagename">{t("NavigationMenu.pageName")}</a>
+            <a href="/userguide">{t("NavigationMenu.userguide", "User Guide")}</a>
             <a href="/whatsappconfig">{t("NavigationMenu.whatsappconfig","WhatsApp Config")}</a>
             <a href="/settings">{t("NavigationMenu.settings", "Settings")}</a>
             <a href="/support">{t("NavigationMenu.support", "Support")}</a>
